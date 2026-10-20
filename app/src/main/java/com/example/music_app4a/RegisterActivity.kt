@@ -32,7 +32,7 @@ class RegisterActivity : AppCompatActivity() {
 
         // Iniciar el objeto de la base de datos
         dbHelper = DatabaseHelper(this)
-
++
         // Evento para registrar a un usuario
         btnRegistrar.setOnClickListener {
             // Llamar al método de registrar usuario
