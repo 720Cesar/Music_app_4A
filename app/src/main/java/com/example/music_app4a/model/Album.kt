@@ -9,7 +9,7 @@ data class Album(
     val artistId: Long?,
     val collectionId: Long?,
 
-    val artistName: String?,
+        val artistName: String?,
     val collectionName: String?,
 
     val artistViewUrl: String?,
